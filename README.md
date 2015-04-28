@@ -1,5 +1,6 @@
 # ParallelLongestCommonSubsequence
 A C++ parallel implementation for Longest Common Subsequence (LCS) problem.
+
 The project contains a DP algorithm for solving LCS problem in addition to a parallelized version of the algorithm.
 The main idea of the parallelized version is that the cells (states) that are at the same anti-diagonal in the DP table can be computed independently.
 
