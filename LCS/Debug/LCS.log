@@ -1,0 +1,24 @@
+﻿Build started 05-Jan-15 12:01:06 PM.
+     1>Project "D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\LCS\LCS\LCS.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Debug\LCS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\cis\fourth year\1st term\high performance computing\2014\task\lcs\lcs\main.cpp(41): warning C4018: '<=' : signed/unsigned mismatch
+     1>d:\cis\fourth year\1st term\high performance computing\2014\task\lcs\lcs\main.cpp(43): warning C4018: '<=' : signed/unsigned mismatch
+     1>d:\cis\fourth year\1st term\high performance computing\2014\task\lcs\lcs\main.cpp(62): warning C4018: '<=' : signed/unsigned mismatch
+     1>d:\cis\fourth year\1st term\high performance computing\2014\task\lcs\lcs\main.cpp(79): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\cis\fourth year\1st term\high performance computing\2014\task\lcs\lcs\main.cpp(36): warning C4715: 'readFile' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\LCS\Debug\LCS.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\LCS\Debug\LCS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\LCS\Debug\LCS.lib" /MACHINE:X86 Debug\main.obj
+         LCS.vcxproj -> D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\LCS\Debug\LCS.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LCS.unsuccessfulbuild".
+         Touching "Debug\LCS.lastbuildstate".
+     1>Done Building Project "D:\CIS\Fourth Year\1st Term\High Performance Computing\2014\Task\LCS\LCS\LCS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.39
